@@ -1,0 +1,44 @@
+{
+  "name": "mcgill-minerva-api",
+  "version": "0.1.0",
+  "main": "./minerva.js",
+  "description": "A javascript abstraction layer over McGill's awful minerva. ",
+  "homepage": "https://github.com/charlespwd/mcgill-courses-api",
+  "bugs": "https://github.com/charlespwd/mcgill-courses-api/issues",
+  "author": {
+    "name": "Charles P Clermont",
+    "email": "charles.pclermont@gmail.com",
+    "url": "cpclermont.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charlespwd/mcgill-minerva-api"
+  },
+  "license": "MIT",
+  "files": [
+    "minerva.js",
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.11.0",
+    "grunt-newer": "^0.7.0",
+    "jshint-stylish": "^0.2.0",
+    "load-grunt-tasks": "^0.4.0",
+    "mocha": "^1.20.1",
+    "time-grunt": "^0.3.1"
+  },
+  "scripts": {
+    "test": ". ./env; grunt"
+  },
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1",
+    "request": "^2.48.0"
+  }
+}
